@@ -1,6 +1,5 @@
-public class Main {
+public class integers {
     public static void main(String[] args) {
-
         // integer has a width of 32
         int myMinValue = -2_147_483_648; //literal
         int myMaxValue = 2_147_483_647; //literal
@@ -33,20 +32,5 @@ public class Main {
         long myChallengeLong = 50000L + 30L * (myChallengeByte + myChallengeShort + myChallengeInt);
         System.out.println(myChallengeLong);
 
-
-        int myIntValue = 5 / 2;
-
-        // width 32 (4 bytes)
-        float myFloatValue = 5f / 3f;
-
-
-        double myDoubleValue = 5d / 3d;
-        System.out.println(myIntValue);
-        System.out.println(myFloatValue);
-        System.out.println(myDoubleValue);
-
-        double myPnds = 200d;
-        double myKgs = myPnds * 0.45_35_92_37d;
-        System.out.println("My kilograms " + myKgs);
     }
 }
